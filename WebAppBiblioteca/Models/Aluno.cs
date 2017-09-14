@@ -12,5 +12,6 @@ namespace WebAppBiblioteca.Models
         public string Sexo { get; set; }
         public string Telefone { get; set; }
         public string Email { get; set; }
+        public List<Requisicao> Requisicoes { get; set; }
     }
 }

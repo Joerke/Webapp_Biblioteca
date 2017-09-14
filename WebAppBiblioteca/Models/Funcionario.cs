@@ -9,5 +9,6 @@ namespace WebAppBiblioteca.Models
     {
         public int FuncionarioId { get; set; }
         public string Nome { get; set; }
+        public List<Requisicao> Requisicoes { get; set; }
     }
 }

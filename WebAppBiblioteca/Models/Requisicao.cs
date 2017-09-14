@@ -12,6 +12,12 @@ namespace WebAppBiblioteca.Models
         public int AlunoId { get; set; }
         public DateTime DataRequisicao { get; set; }
         public DateTime DataEntrega { get; set; }
+        public List<Funcionario> Funcionarios { get; set; }
+        public Livro Livro { get; set; }
+        public Aluno Aluno { get; set; }
+
+
+
 
     }
 }

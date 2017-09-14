@@ -9,5 +9,6 @@ namespace WebAppBiblioteca.Models
     {
         public int CategoriaId { get; set; }
         public string Descricao { get; set; }
+        public List<Livro> Livros { get; set; }
     }
 }
