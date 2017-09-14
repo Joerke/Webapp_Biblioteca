@@ -29,5 +29,19 @@ namespace WebAppBiblioteca.Models
         {
             return new ApplicationDbContext();
         }
+
+        public System.Data.Entity.DbSet<WebAppBiblioteca.Models.Livro> Livroes { get; set; }
+
+        public System.Data.Entity.DbSet<WebAppBiblioteca.Models.Categoria> Categorias { get; set; }
+
+        public System.Data.Entity.DbSet<WebAppBiblioteca.Models.Requisicao> Requisicaos { get; set; }
+
+        public System.Data.Entity.DbSet<WebAppBiblioteca.Models.Aluno> Alunoes { get; set; }
+
+        public System.Data.Entity.DbSet<WebAppBiblioteca.Models.Funcionario> Funcionarios { get; set; }
+
+        public System.Data.Entity.DbSet<WebAppBiblioteca.Models.Endereco> Enderecoes { get; set; }
+
+        public System.Data.Entity.DbSet<WebAppBiblioteca.Models.Autor> Autors { get; set; }
     }
 }

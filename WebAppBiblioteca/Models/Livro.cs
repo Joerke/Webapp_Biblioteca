@@ -14,7 +14,7 @@ namespace WebAppBiblioteca.Models
         public Decimal Preco { get; set; }
         public DateTime DataPublicao { get; set; }
         public string NumeroExemplares { get; set; }
-        public List<Autor>  Autores { get; set; }
+        public List<Autor> Autores { get; set; }
         public List<Requisicao> Requisicoes { get; set; }
         public Categoria Categoria { get; set; }
 
